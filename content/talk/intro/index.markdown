@@ -1,7 +1,7 @@
 ---
 title: "Introduction to computing for the social sciences"
-date: 2019-06-24T10:00:00
-publishDate: 2019-06-01T10:00:00
+date: 2019-10-01T12:30:00
+publishDate: 2019-08-01T12:30:00
 draft: false
 type: "talk"
 
@@ -9,7 +9,7 @@ aliases: ["/cm001.html"]
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-time_end: 2019-06-24T12:00:00
+time_end: 2019-10-01T13:50:00
 all_day: false
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
@@ -20,7 +20,7 @@ abstract: ""
 summary: "Overview of programming, applications to social science, reproducible research, and course logistics."
 
 # Location of event.
-location: "Room 315, Haskell Hall, Chicago, IL"
+location: "Room 104, Stuart Hall, Chicago, IL"
 
 # Is this a selected talk? (true/false)
 selected: false
@@ -61,5 +61,5 @@ math: false
 ## What you need to do
 
 * [Install and setup software](/setup/)
-* [Register your GitHub username for the course](https://forms.gle/jS3nn8CM5JwttorU6)
+* [Register your GitHub username for the course](https://forms.gle/6YDKXHpEGPkc9sX28)
 * [Begin homework 1](/homework/edit-readme/)

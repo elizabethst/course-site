@@ -1,5 +1,5 @@
 ---
-title: "HW05: Statistical learning"
+title: "HW07: Statistical learning"
 date: 2019-05-06T13:30:00-06:00  # Schedule page publish date
 publishdate: 2019-04-01
 
@@ -8,7 +8,7 @@ type: post
 aliases: ["/hw06-stat-learn.html"]
 
 summary: "Implement statistical learning methods for regression and classification."
-url_code: "https://github.com/cfss-su19/hw05"
+url_code: "https://github.com/cfss-fa19/hw05"
 ---
 
 ```{r setup, include=FALSE}
@@ -17,11 +17,11 @@ knitr::opts_chunk$set(echo = FALSE)
 
 # Overview
 
-Due before class on Thursday July 18th.
+Due before class on November 19th.
 
 # Fork the `hw05` repository
 
-Go [here](https://github.com/cfss-su19/hw05) to fork the repo.
+Go [here](https://github.com/cfss-fa19/hw05) to fork the repo.
 
 # Part 1: President Donald Trump
 
@@ -74,6 +74,12 @@ The [General Social Survey](http://gss.norc.org/) is a biannual survey of the Am
 You are going to predict attitudes towards racist college professors. Specifically, each respondent was asked "Should a person who believes that Blacks are genetically inferior be allowed to teach in a college or university?" Given the kerfuffle over Richard J. Herrnstein and Charles Murray's [*The Bell Curve*](https://en.wikipedia.org/wiki/The_Bell_Curve) and the ostracization of Nobel Prize laureate [James Watson](https://en.wikipedia.org/wiki/James_Watson) over his controversial views on race and intelligence, this analysis will provide further insight into the public debate over this issue.
 
 `rcfss::gss_colrac` contain a selection of variables from the 2012 GSS. The outcome of interest `colrac` is a binary variable coded as either `TRUE` (respondent believes the person should be allowed to teach) or `FALSE` (respondent believes the person should not allowed to teach). Documentation for the other predictors (if the variable is not clearly coded) can be viewed [here](https://gssdataexplorer.norc.org/variables/vfilter). You can also run `?gss_colrac` to open a documentation file in R.
+
+{{% alert note %}}
+
+`gss_colrac` is found in version `0.1.7` of `rcfss`. You will need to update your package prior to attempting the exercise. Run `devtools::install_github("uc-cfss/rcfss")` from your console to update to the most recent version.
+
+{{% /alert %}}
 
 1. Load the `gss_colrac` data frame from `library(rcfss)`.
 1. Estimate three different logistic regression models with `colrac` as the response variable. You may use any combination of the predictors to estimate these models.

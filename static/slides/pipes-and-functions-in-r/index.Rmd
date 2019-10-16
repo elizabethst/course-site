@@ -82,9 +82,9 @@ diamonds %>%
 
 ---
 
-# Exercise on piping
+# Piping
 
-![](https://media3.s-nbcnews.com/j/newscms/2015_18/512061/exercise-outside-woman-stock-today-150427-tease_72497df9c4ab67a1d1a016b22206a5af.today-inline-large.jpg)
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">This is how I explain the &#39;pipe&#39; to <a href="https://twitter.com/hashtag/rstats?src=hash&amp;ref_src=twsrc%5Etfw">#rstats</a> newbies... <a href="https://t.co/VdAFTLzijy">pic.twitter.com/VdAFTLzijy</a></p>&mdash; We are R-Ladies (@WeAreRLadies) <a href="https://twitter.com/WeAreRLadies/status/1172576445794803713?ref_src=twsrc%5Etfw">September 13, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ---
 

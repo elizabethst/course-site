@@ -53,7 +53,7 @@ data_large <- tibble(
   write_csv(here("static", "data", "sim-data-large.csv"))
 ```
 
-One of the main advantages of `readr` functions over base R functions is that [they are typically much faster](http://r4ds.had.co.nz/data-import.html#compared-to-base-r). For example, let's import a randomly generated CSV file with `r prettyNum(n_row_s, scientific = FALSE, big.mark = ",")` rows and `ncol(data_small)` columns. How long does it take `read.csv()` to import this file vs. `readr::read_csv()`? To assess the differences, we use the [`microbenchmark`](https://cran.r-project.org/web/packages/microbenchmark/) to run each function 100 times and compare the distributions of the time it takes to complete the data import:
+One of the main advantages of `readr` functions over base R functions is that [they are typically much faster](http://r4ds.had.co.nz/data-import.html#compared-to-base-r). For example, let's import a randomly generated CSV file with `r prettyNum(n_row_s, scientific = FALSE, big.mark = ",")` rows and `r ncol(data_small)` columns. How long does it take `read.csv()` to import this file vs. `readr::read_csv()`? To assess the differences, we use the [`microbenchmark`](https://cran.r-project.org/web/packages/microbenchmark/) to run each function 100 times and compare the distributions of the time it takes to complete the data import:
 
 ```{r compare-speed-small, dependson = "data-gen", message = FALSE}
 library(microbenchmark)
@@ -88,6 +88,24 @@ autoplot(object = results_large) +
 ```
 
 Here `read_csv()` is far superior to `read.csv()`.
+
+## `vroom`
+
+[`vroom`](https://vroom.r-lib.org/) is a recently developed package designed specifically for **speed**. It contains one of the fastest functions to import plain-text data files. Its syntax is similar to `readr::read_*()` functions, but works much more quickly.
+
+```{r vroom-compare-speed-large, dependson = "data-gen", message = FALSE}
+results_vroom <- microbenchmark(
+  read.csv = read.csv(file = here("static", "data", "sim-data-large.csv")),
+  read_csv = read_csv(file = here("static", "data", "sim-data-large.csv")),
+  vroom = vroom::vroom(file = here("static", "data", "sim-data-large.csv"))
+)
+```
+
+```{r vroom-compare-speed-large-plot, dependson = "compare-speed-large", message = FALSE}
+autoplot(object = results_vroom) +
+  scale_y_log10() +
+  labs(y = "Time [milliseconds], logged")
+```
 
 ## Alternative file formats
 
