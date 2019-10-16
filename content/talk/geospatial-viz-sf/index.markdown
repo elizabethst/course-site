@@ -1,13 +1,13 @@
 ---
 title: "Geospatial visualization: vector maps"
-date: 2019-11-28T12:30:00
+date: 2019-07-23T10:00:00
 publishDate: 2019-05-22T13:30:00
 draft: false
 type: "talk"
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-time_end: 2019-11-28T13:50:00
+time_end: 2019-07-23T12:00:00
 all_day: false
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
@@ -18,7 +18,7 @@ abstract: ""
 summary: "Review methods for storing spatial data, define simple features data frames, and construct vector maps in ggplot2."
 
 # Location of event.
-location: "Room 104, Stuart Hall, Chicago, IL"
+location: "Room 315, Haskell Hall, Chicago, IL"
 
 # Is this a selected talk? (true/false)
 selected: false
@@ -29,7 +29,7 @@ tags: []
 
 # Links (optional).
 url_pdf: ""
-url_slides: "/slides/geospatial-visualization-vector-maps/"
+url_slides: "/slides/geospatial-visualization/"
 url_video: ""
 url_code: ""
 
@@ -60,4 +60,4 @@ math: false
 
 ## What you need to do
 
-* [Complete the geospatial visualization homework](/homework/geospatial-viz/)
+* Work on [homework 8](/homework/geospatial-viz/)

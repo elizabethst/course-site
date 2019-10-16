@@ -1,6 +1,6 @@
 ---
 title: "Visualizations and the grammar of graphics"
-date: 2019-10-03T12:30:00
+date: 2019-06-25T10:00:00
 publishDate: 2019-04-03T13:30:00
 draft: false
 type: "talk"
@@ -9,7 +9,7 @@ aliases: ["/cm002.html"]
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-time_end: 2019-10-03T13:50:00
+time_end: 2019-06-25T12:00:00
 all_day: false
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
@@ -20,7 +20,7 @@ abstract: ""
 summary: "Introduction to data visualizations, the grammar of graphics, and ggplot2."
 
 # Location of event.
-location: "Room 104, Stuart Hall, Chicago, IL"
+location: "Room 315, Haskell Hall, Chicago, IL"
 
 # Is this a selected talk? (true/false)
 selected: false
@@ -88,8 +88,9 @@ math: false
 
 ## What you need to do
 
-* [Register your GitHub username for the course](https://forms.gle/6YDKXHpEGPkc9sX28) - all remaining homework assignments will be in **private repositories**. Private repos can only be seen and edited by members of our [course organization](https://github.com/uc-cfss). Once you register your GitHub account, I will invite you to join the course organization. If you don't register your account, you won't have access to any of the homework assignments.
-* [Complete the first homework assignment](/homework/edit-readme/)
+* [Register your GitHub username for the course](https://forms.gle/jS3nn8CM5JwttorU6) - all remaining homework assignments will be in **private repositories**. Private repos can only be seen and edited by members of our [course organization](https://github.com/uc-cfss). Once you register your GitHub account, I will invite you to join the course organization. If you don't register your account, you won't have access to any of the homework assignments.
+* [If you are not currently registered, complete this petition to enroll in the course](https://goo.gl/forms/ZERPvUxvPxX5SZnj2)
+* [Complete homework 1](/homework/edit-readme/)
 * Install the [`rcfss`](https://github.com/uc-cfss/rcfss) library from GitHub. To install the package, run the command `devtools::install_github("uc-cfss/rcfss")` in the console. We will be using data from this package in class next week.
 
 > If you do not already have the `devtools` library installed, you will get an error. Go back and install this first using `install.packages("devtools")`, then run `devtools::install_github("uc-cfss/rcfss")` in the console.

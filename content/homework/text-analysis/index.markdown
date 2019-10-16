@@ -1,5 +1,5 @@
 ---
-title: "HW10: Analyzing text data"
+title: "HW08: Analyzing text data"
 date: 2019-05-27T13:30:00-06:00  # Schedule page publish date
 publishdate: 2019-04-01
 
@@ -8,18 +8,18 @@ type: post
 aliases: ["/hw09-text_analysis.html"]
 
 summary: "Collect text data and analyze it."
-url_code: "https://github.com/cfss-fa19/hw08"
+url_code: "https://github.com/cfss-su19/hw08"
 ---
 
 
 
 # Overview
 
-Due by 12:30pm on December 10th.
+Due by 1:30pm on Monday July 29th.
 
 # Fork the `hw08` repository
 
-Go [here](https://github.com/cfss-fa19/hw08) to fork the repo.
+Go [here](https://github.com/cfss-su19/hw08) to fork the repo.
 
 # Your mission
 
@@ -29,26 +29,18 @@ Perform text analysis.
 
 Perform sentiment analysis, classification, or topic modeling using text analysis methods as demonstrated in class and in the readings.
 
-## Okay, I need some data sources
+## Okay, I need even more information.
 
-{{% alert note %}}
-
-Some suggested text data you could use include:
+Do the above. Can't think of a data source?
 
 * `gutenbergr`
-* [Congressional Record for the 43rd-114th Congresses: Parsed Speeches and Phrase Counts](https://data.stanford.edu/congress_text)
-* [Data for Everyone](https://www.figure-eight.com/data-for-everyone/) - a bunch of open-source data sets. Some contain text data, such as **New England Patriots Deflategate sentiment**.
-* [Hate speech samples](https://github.com/t-davidson/hate-speech-and-offensive-language)
-* [Last statements by Texas death row inmates](https://www.tdcj.texas.gov/death_row/dr_executed_offenders.html)
-* [Movie Review Data](http://www.cs.cornell.edu/people/pabo/movie-review-data/) - good for sentiment analysis
-* [The musiXmatch Dataset](http://millionsongdataset.com/musixmatch/)
-* Scrape tweets using `rtweet` (you know how to use the API now, right?)
+* `AssociatedPress` from the `topicmodels` package
+* [Reuters-21578](http://www.daviddlewis.com/resources/testcollections/reuters21578/) - a standard set of text documents (articles published by Reuters in 1987). To access the document-term matrix for this data set, run the following code:
+
+    
+    
 * [State of the Union speeches](http://www.presidency.ucsb.edu/sou.php)
-* [Something from here](https://docs.google.com/spreadsheets/d/1I7cvuCBQxosQK2evTcdL3qtglaEPc0WFEs6rZMx-xiE/edit#gid=0) (h/t Chris Bail)
-
-{{% /alert %}}
-
-## How much do I really need to do?
+* Scrape tweets using `rtweet` (you know how to use the API now, right?)
 
 Analyze the text for sentiment OR topic. Or build a statistical learning model using text features to predict some outcome of interest. You don't have to do all these things, just pick one. The lecture notes and [Tidy Text Mining with R](http://tidytextmining.com/) are good starting points for templates to perform this type of analysis, but feel free to **expand beyond these examples**.
 

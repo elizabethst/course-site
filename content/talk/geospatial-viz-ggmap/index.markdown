@@ -1,6 +1,6 @@
 ---
 title: "Geospatial visualization: raster maps"
-date: 2019-11-26T12:30:00
+date: 2019-07-22T10:00:00
 publishDate: 2019-05-20T13:30:00
 draft: false
 type: "talk"
@@ -9,7 +9,7 @@ aliases: ["/cm014.html", "/syllabus/geospatial-visualization/"]
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-time_end: 2019-11-26T13:50:00
+time_end: 2019-07-22T12:00:00
 all_day: false
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
@@ -20,7 +20,7 @@ abstract: ""
 summary: "Identify components of geospatial visualizations and implement raster maps using ggplot2."
 
 # Location of event.
-location: "Room 104, Stuart Hall, Chicago, IL"
+location: "Room 315, Haskell Hall, Chicago, IL"
 
 # Is this a selected talk? (true/false)
 selected: false
@@ -31,7 +31,7 @@ tags: []
 
 # Links (optional).
 url_pdf: ""
-url_slides: "/slides/geospatial-visualization-raster-maps/"
+url_slides: "/slides/geospatial-visualization/"
 url_video: ""
 url_code: ""
 
@@ -64,4 +64,3 @@ math: false
 
 ## What you need to do
 
-* [Obtain an API key](https://api.census.gov/data/key_signup.html) and [store it securely](/notes/application-program-interface/#census-data-with-tidycensus) on your computer. We will be using `tidycensus` next class, so you will save time if you set this up in advance.
